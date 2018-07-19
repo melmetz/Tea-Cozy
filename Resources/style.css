@@ -1,0 +1,145 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background: black;
+  opacity: 0.9;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+
+nav span {
+  text-decoration: underline;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+/* Section 1 */
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: url("./Resources/Photos/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1200px;
+  height: 700px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.top .image-content {
+  width: 100%;
+  background-color: black;
+  align-items: center;
+}
+
+/* Section 2 */
+
+.middle {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.middle .teatitle {
+  padding: 0;
+}
+
+.products {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 0;
+}
+
+/* Section 3 */
+
+.end {
+  height: 500px;
+  opacity: 1;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background: url("./Resources/Photos/img-locations-background.jpg");
+}
+
+.locations {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location {
+  padding: 10px;
+  border: 1px solid black;
+  background: black;
+  opacity: 1;
+  color: white;
+  flex-basis: 300px;
+  margin: 0 20px;
+}
+
+/* Footer Section */
+
+.info {
+  height: 200px;
+  padding: 0 20px;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.copyright {
+  position: relative;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+}
