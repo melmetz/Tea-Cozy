@@ -14,6 +14,9 @@ body {
   margin: 0;
 }
 
+a {
+  color: seashell;
+}
 /* Header */
 
 header {
@@ -52,11 +55,11 @@ nav span {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: url("./Resources/Photos/img-mission-background.jpg");
+  background: url("./Photos/img-mission-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 1200px;
+  max-width: 1050px;
   height: 700px;
   overflow: hidden;
   margin: 0 auto;
@@ -103,12 +106,17 @@ nav span {
 /* Section 3 */
 
 .end {
-  height: 500px;
+  height: 570px;
   opacity: 1;
   width: 1200px;
   margin: 0 auto;
   text-align: center;
-  background: url("./Resources/Photos/img-locations-background.jpg");
+  background: url("./Photos/img-locations-background.jpg");
+}
+
+.end h1 {
+  padding-top: 70px;
+  padding-bottom: 5px;
 }
 
 .locations {
